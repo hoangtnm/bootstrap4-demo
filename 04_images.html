@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BS4 Images</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="static/css/bootstrap.css">
+</head>
+<body>
+
+<div class="jumbotron text-center">
+    <h1>Bootstrap 4 Images</h1>
+</div>
+
+<div class="container">
+    <h2>Bootstrap 4 Image Shapes</h2><br>
+    <div class="row">
+        <div class="col">
+            <h3>Rounded Corners</h3>
+            <p>The <code>.rounded</code> class adds rounded corners to an image:</p>
+            <img src="static/images/paris.jpg" class="rounded">
+        </div>
+        <div class="col">
+            <h3>Circle</h3>
+            <p>The <code>.rounded-circle</code> class shapes the image to a circle:</p>
+            <img src="static/images/paris.jpg" class="rounded-circle">
+        </div>
+        <div class="col">
+            <h3>Thumbnail</h3>
+            <p>The <code>.img-thumbnail</code> class shapes the image to a thumbnail (bordered):</p>
+            <img src="static/images/paris.jpg" class="img-thumbnail">
+        </div>
+    </div>
+</div>
+
+<!--<div class="container">-->
+<!--    <h2>Aligning Images</h2>-->
+<!--    <img src="static/images/paris.jpg" class="float-left">-->
+<!--    <img src="static/images/paris.jpg" class="float-right">-->
+<!--</div>-->
+
+<div class="container">
+    <h2>Responsive Images</h2>
+    <p>Images come in all sizes. So do screens. Responsive images automatically adjust to fit the size of the screen. </p>
+    <p>Create responsive images by adding an <code>.img-fluid</code> class to the <img> tag. The image will then scale nicely to the parent element.</p>
+    <p>The <code>.img-fluid</code> class applies <code>max-width: 100%</code>; and <code>height: auto</code>; to the image:</p>
+    <img src="static/images/paris.jpg" class="img-fluid">
+</div>
+</body>
+</html>
